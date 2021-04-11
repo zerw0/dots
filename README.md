@@ -1,4 +1,5 @@
 # zerw's Dotfiles
+My personal dotfiles/.files for the software i use :)
 
 ## Software i use:
 * Linux Distribution: [Void Linux](https://voidlinux.org) and [Arch Linux](https://archlinux.org) (btw)
