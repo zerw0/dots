@@ -1,7 +1,7 @@
 # zerw's Dotfiles
 
 ## Pictuers
-!()[pix/bspwm.png]
+![](pix/bspwm.png)
 
 ## Usage
 
