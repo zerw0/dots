@@ -2,6 +2,15 @@
 
 ## Pictures
 ![](pix/bspwm.png)
+*You need noto-fonts/noto-fonts-complete for polybar and other stuff*
+![](pix/ncspot.png)
+![](pix/neofetch.png)
+*You need noto-fonts for that too*
+![](pix/nvim.png)
+![](pix/shell.png)
+![](pix/zathura.png)
+
+**Using CaskaydiaCove Nerd Font Mono Book and Fira Mono in terminal**
 
 ## Usage
 
