@@ -2,15 +2,14 @@
 
 ## Pictures
 ![](pix/bspwm.png)
-*You need noto-fonts/noto-fonts-complete for polybar and other stuff*
 ![](pix/ncspot.png)
 ![](pix/neofetch.png)
-*You need noto-fonts for that too*
 ![](pix/nvim.png)
+* Source: UtopicUnicorn/.initrd's Discord bot Artemis V3. [Link](https://github.com/UtopicUnicorns/artemisv3)
 ![](pix/shell.png)
 ![](pix/zathura.png)
 
-**Using CaskaydiaCove Nerd Font Mono Book and Fira Mono in terminal**
+**Using CaskaydiaCove Nerd Font Mono Book and Fira Mono in terminal. You need nerd-fonts/nerd-fonts-complete for fonts to work.**
 
 ## Usage
 
