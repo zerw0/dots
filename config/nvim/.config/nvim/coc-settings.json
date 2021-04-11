@@ -1,0 +1,14 @@
+{
+	"suggest.noselect": false,
+	"tabnine.shortcut": "TN",
+	"coc.preferences.formatOnSaveFiletypes": [
+		"javascript",
+		"typescript",
+		"typescriptreact",
+		"json",
+		"python",
+		"javascriptreact",
+		"typescript.tsx",
+		"graphql"
+	]
+}
