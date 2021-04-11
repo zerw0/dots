@@ -1,6 +1,6 @@
 # zerw's Dotfiles
 
-## Pictuers
+## Pictures
 ![](pix/bspwm.png)
 
 ## Usage
