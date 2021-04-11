@@ -5,7 +5,7 @@
 ![](pix/ncspot.png)
 ![](pix/neofetch.png)
 ![](pix/nvim.png)
-* Source: UtopicUnicorn/.initrd's Discord bot Artemis V3. [Link](https://github.com/UtopicUnicorns/artemisv3)
+* Source: UtopicUnicorn/.initrd's Discord bot Artemis V3. [Link](https://github.com/UtopicUnicorns/artemisv3) *
 ![](pix/shell.png)
 ![](pix/zathura.png)
 
