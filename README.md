@@ -1,31 +1,32 @@
 # zerw's Dotfiles
 
 ## Software i use:
-* Linux Distribution: Void Linux and Arch Linux (btw)
-* Browser: Mozilla Firefox with [these](pix/extensions.png) extensions and Chromium for testing.
-* Image Editor: GNU Image Manipulation Program (GIMP)
-* Image Viewer: sxiv
-* Office Suite: LibreOffice
-* PDF/ePUB Reader: Zathura
-* Video Player: MPV
-* Torrent Client: qBittorrent on the desktop and Deluge on my homeserver.
-* Audio Recorder(?): Audacity
-* System Monitor: htop/gotop
-* Shell: Fish
-* Backup Software: Timeshift with BTRFS Snapshots
-* Syncing: Syncthing and Nextcloud
-* File Editor: NeoVim and sometimes GNU Emacs
-* VM Software: virt-manager
-* Music Software: ncspot (*spotify go brrr*)
-* Window Manager: bspwm (Using GNOME in most of the time tho)
-* Terminal Emulator: Tilix and Kitty
-* Bar (when using a WM): polybar
-* Terminal Multiplexer: tmux
-* Notification Daemon: dunst
-* Launcher(?): Rofi
-* Screen Recorder: OBS Studio
-* Mail Client: Thunderbird
-* OTP Client: Aegis and OTPClient
+* Linux Distribution: [Void Linux](https://voidlinux.org) and [Arch Linux](https://archlinux.org) (btw)
+* Browser: [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) with [these](pix/extensions.png) extensions and [Chromium](https://chromium.org) for testing.
+* Image Editor: [GNU Image Manipulation Program (GIMP)](https://www.gimp.org)
+* Image Viewer: [sxiv](https://github.com/muennich/sxiv)
+* Office Suite: [LibreOffice](https://www.libreoffice.org/)
+* PDF/ePUB Reader: [Zathura](https://pwmt.org/projects/zathura/) with zathura-mupdf-poppler
+* Video Player: [mpv](https://mpv.io)
+* Torrent Client: [qBittorrent](https://www.qbittorrent.org/) on the desktop and [Deluge](https://github.com/binhex/arch-delugevpn) on my homeserver.
+* Audio Recorder(?): [Audacity](https://www.audacityteam.org/)
+* System Monitor: [htop](https://htop.dev/)/[gotop](https://github.com/xxxserxxx/gotop)
+* Shell: [fish](https://fishshell.com/)
+* Backup Software: [Timeshift](https://github.com/teejee2008/timeshift) with BTRFS Snapshots
+* Syncing: [Syncthing](https://syncthing.net/) and [Nextcloud](https://nextcloud.com/)
+* File Editor: [Neovim](https://neovim.io/) and sometimes [Doom Emacs](https://www.gnu.org/software/emacs/)
+* VM Software: [virt-manager](https://virt-manager.org/)
+* Music Software: [ncspot](https://github.com/hrkfdn/ncspot) (*spotify go brrr*)
+* Window Manager: [bspwm](https://github.com/baskerville/bspwm) (Using [GNOME](https://www.gnome.org/) in most of the time tho)
+* Terminal Emulator: [Tilix](https://gnunn1.github.io/tilix-web/) and [Kitty](https://sw.kovidgoyal.net/kitty/)
+* Bar (when using a WM): [polybar](https://polybar.github.io/)
+* Terminal Multiplexer: [tmux](https://github.com/tmux/tmux)
+* Notification Daemon: [dunst](https://dunst-project.org/)
+* Launcher(?): [Rofi](https://github.com/davatorium/rofi)
+* Screen Recorder: [OBS Studio](https://obsproject.com/)
+* Mail Client: [Thunderbird](https://www.thunderbird.net/en-US/)
+* OTP Client: [Aegis](https://getaegis.app/) and [OTPClient](https://github.com/paolostivanin/OTPClient)
+* Matrix Client: [Fractal](https://wiki.gnome.org/Apps/Fractal) and [fluffychat](https://fluffychat.im/)
 
 *I use some proprietary/nonfree software like Discord,Viber,Parsec,MS Teams and the Intel Microcode, but i just can't live without them*
 
