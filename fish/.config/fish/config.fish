@@ -129,3 +129,6 @@ alias push='git push origin'
 alias stat='git status'
 alias tag='git tag'
 alias newtag='git tag -a'
+
+# Midnight Commander
+export MC_XDG_OPEN=$HOME/.local/bin/nohup-open
