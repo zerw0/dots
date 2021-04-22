@@ -5,7 +5,7 @@ export LC_CTYPE=en_US.UTF-8
 export LC_ALL="en_US.UTF-8"
 source $HOME/.config/fish/shortcuts.fish
 source $HOME/.config/fish/colors.fish
-set -gx PATH $HOME/.local/bin /usr/local/bin /opt/metasploit-framework /opt/dirble /opt/exploitdb /opt/nikto/program /home/north/.cargo/bin $PATH
+set -gx PATH $HOME/.local/bin /usr/local/bin /opt/metasploit /opt/dirble /opt/exploitdb /opt/nikto/program $HOME/.cargo/bin $PATH
 
 ### flatpak ###
 set -l xdg_data_home $XDG_DATA_HOME ~/.local/share
@@ -38,20 +38,20 @@ alias vi='vim'
 alias find='fd -H'
 
 # pacman and yay
-#alias pacsyu='sudo pacman -Syyu'
-#alias yaysua='yay -Sua --noconfirm'
-#alias yaysyu='yay -Syu --noconfirm'
-#alias parsua='paru -Sua --noconfirm'
-#alias parsyu='paru -Syu --noconfirm'
-#alias unlock='sudo rm /var/lib/pacman/db.lck'
-#alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
+alias pacsyu='sudo pacman -Syyu'
+alias yaysua='yay -Sua --noconfirm'
+alias yaysyu='yay -Syu --noconfirm'
+alias parsua='paru -Sua --noconfirm'
+alias parsyu='paru -Syu --noconfirm'
+alias unlock='sudo rm /var/lib/pacman/db.lck'
+alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
 #alias pacman='paru'
 
 # get fastest mirrors
-#alias mirror="sudo reflector -f 30 -l 30 -c Bulgaria --number 10 --verbose --save /etc/pacman.d/mirrorlist"
-#alias mirrord="sudo reflector --latest 50 -c Bulgaria --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
-#alias mirrors="sudo reflector --latest 50 -c Bulgaria --number 20 --sort score --save /etc/pacman.d/mirrorlist"
-#alias mirrora="sudo reflector --latest 50 -c Bulgaria --number 20 --sort age --save /etc/pacman.d/mirrorlist"
+alias mirror="sudo reflector -f 30 -l 30 -c Bulgaria --number 10 -c Bulgaria --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo reflector --latest 50 -c Bulgaria --number 20 -c Bulgaria --sort delay --save /etc/pacman.d/mirrorlist"
+alias mirrors="sudo reflector --latest 50 -c Bulgaria --number 20 -c Bulgaria --sort score --save /etc/pacman.d/mirrorlist"
+alias mirrora="sudo reflector --latest 50 -c Bulgaria --number 20 -c Bulgaria --sort age --save /etc/pacman.d/mirrorlist"
 
 
 # ls to exa
@@ -132,3 +132,4 @@ alias newtag='git tag -a'
 
 # Midnight Commander
 export MC_XDG_OPEN=$HOME/.local/bin/nohup-open
+
