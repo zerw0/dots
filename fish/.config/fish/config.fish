@@ -5,7 +5,7 @@ export LC_CTYPE=en_US.UTF-8
 export LC_ALL="en_US.UTF-8"
 source $HOME/.config/fish/shortcuts.fish
 source $HOME/.config/fish/colors.fish
-set -gx PATH $HOME/.local/bin /usr/local/bin /opt/metasploit /opt/dirble /opt/exploitdb /opt/nikto/program $HOME/.cargo/bin $PATH
+set -gx PATH $HOME/.local/bin /usr/local/bin /opt/dirble /opt/exploitdb /opt/nikto/program $HOME/.cargo/bin $HOME/.rvm/bin $PATH
 
 ### flatpak ###
 set -l xdg_data_home $XDG_DATA_HOME ~/.local/share
@@ -132,4 +132,3 @@ alias newtag='git tag -a'
 
 # Midnight Commander
 export MC_XDG_OPEN=$HOME/.local/bin/nohup-open
-
