@@ -18,7 +18,7 @@ for flatpakdir in ~/.local/share/flatpak/exports/bin /var/lib/flatpak/exports/bi
 end
 
 ### Set "bat" as manpager
-export MANPAGER=$HOME/.local/bin/batpager
+set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
 # navigation
 alias ..='cd ..'
