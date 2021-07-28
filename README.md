@@ -11,7 +11,7 @@ My personal dotfiles/.files for the software i use :)
 * Video Player: [mpv](https://mpv.io)
 * Torrent Client: [qBittorrent](https://www.qbittorrent.org/) on the desktop and [Deluge](https://github.com/binhex/arch-delugevpn) on my homeserver.
 * Audio Recorder(?): [Audacity](https://www.audacityteam.org/)
-* System Monitor: [htop](https://htop.dev/)/[gotop](https://github.com/xxxserxxx/gotop)
+* System Monitor: [htop](https://htop.dev/)/[bpytop](https://github.com/aristocratos/bpytop)
 * Shell: [fish](https://fishshell.com/)
 * Backup Software: [Timeshift](https://github.com/teejee2008/timeshift) with BTRFS Snapshots
 * Syncing: [Syncthing](https://syncthing.net/) and [Nextcloud](https://nextcloud.com/)
@@ -26,8 +26,8 @@ My personal dotfiles/.files for the software i use :)
 * Launcher(?): [Rofi](https://github.com/davatorium/rofi)
 * Screen Recorder: [OBS Studio](https://obsproject.com/)
 * Mail Client: [Thunderbird](https://www.thunderbird.net/en-US/)
-* OTP Client: [Aegis](https://getaegis.app/) and [OTPClient](https://github.com/paolostivanin/OTPClient)
-* Matrix Client: [Fractal](https://wiki.gnome.org/Apps/Fractal) and [fluffychat](https://fluffychat.im/)
+* OTP Client: [Aegis](https://getaegis.app/)
+* Matrix Client: [Element](https://element.io)
 
 *I use some proprietary/nonfree software like Discord,Viber,Parsec,MS Teams and the Intel Microcode, but i just can't live without them*
 
