@@ -40,6 +40,13 @@ My personal dotfiles/.files for the software i use :)
 ![](pix/shell.png)
 ![](pix/zathura.png)
 
+
+| | | |
+| --- | --- | --- |
+| ![](pix/bspwm.png) | ![](pix/ncspot.png) | ![](pix/shell.png) |
+| ![](pix//neofetch.png) | ![](pix/nvim.png) | ![](pix/zathura.png) |
+---
+
 **Using CaskaydiaCove Nerd Font Mono Book and Fira Mono in terminal. You need nerd-fonts/nerd-fonts-complete for fonts to work.**
 
 ## Usage
