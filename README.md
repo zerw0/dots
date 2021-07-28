@@ -31,20 +31,10 @@ My personal dotfiles/.files for the software i use :)
 
 *I use some proprietary/nonfree software like Discord,Viber,Parsec,MS Teams and the Intel Microcode, but i just can't live without them*
 
-## Pictures
-![](pix/bspwm.png)
-![](pix/ncspot.png)
-![](pix/neofetch.png)
-*Source: UtopicUnicorn/.initrd's Discord bot Artemis V3. [Link](https://github.com/UtopicUnicorns/artemisv3)*
-![](pix/nvim.png)
-![](pix/shell.png)
-![](pix/zathura.png)
-
-
 | | | |
 | --- | --- | --- |
 | ![](pix/bspwm.png) | ![](pix/ncspot.png) | ![](pix/shell.png) |
-| ![](pix//neofetch.png) | ![](pix/nvim.png) | ![](pix/zathura.png) |
+| ![](pix/neofetch.png) | ![](pix/nvim.png) | ![](pix/zathura.png) |
 ---
 
 **Using CaskaydiaCove Nerd Font Mono Book and Fira Mono in terminal. You need nerd-fonts/nerd-fonts-complete for fonts to work.**
