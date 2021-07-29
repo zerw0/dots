@@ -132,3 +132,16 @@ alias newtag='git tag -a'
 
 # Midnight Commander
 export MC_XDG_OPEN=$HOME/.local/bin/nohup-open
+
+# TUI/CLI Apps
+alias rt="ttrv"
+alias news="newsboat"
+alias ddg="ddgr"
+alias gg="googler"
+
+# Start X at login
+if status is-login
+    if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
+        exec startx -- -keeptty
+    end
+end

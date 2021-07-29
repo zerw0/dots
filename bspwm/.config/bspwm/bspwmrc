@@ -1,7 +1,6 @@
 #! /bin/sh
 
-bspc monitor LVDS-1 -d 1 2 3 4 5 
-bspc monitor VGA-1 -d 6 7 8 9 10
+bspc monitor LVDS-1 -d 1 2 3 4 5 6 7 8 9 
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -13,7 +12,7 @@ bspc config gapless_monocle      true
 bspc pointer -g focus
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a celluloid state=floating
+bspc rule -a mpv state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
@@ -30,19 +29,12 @@ bspc config urgent_border_color 	      "#dd2727"
 
 xsetroot -cursor_name left_ptr
 pgrep -x sxhkd > /dev/null || sxhkd &
-pgrep -x picom > /dev/null || picom --config $HOME/.config/compton.conf -b
-pgrep -x polkit-mate-authentication-agent-1 > /dev/null || /usr/libexec/polkit-mate-authentication-agent-1 &
-feh --bg-fill $HOME/.wal.png
-pgrep -x syncthing > /dev/null || syncthing -no-browser &
+pgrep -x picom > /dev/null || picom --config $HOME/.config/picom/picom.conf -b
+pgrep -x polkit-mate-authentication-agent-1 > /dev/null || /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
+nitrogen --restore
 pgrep -x dunst > /dev/null || dunst &
 xrdb -merge $HOME/.Xresources
-
-# run the xrandr command if an external monitor is connected to the
-# laptop.  This must be executed before the polybar command, so that
-# polybar can set the two separate bars properly.
-if [ -x $HOME/.config/bspwm/monitors.sh ]; then
-    $HOME/.config/bspwm/monitors.sh
-fi
+pgrep -x flameshot > /dev/null || flameshot &
 
 # NOTE the path to the polybar executable.  This is the default location
 # when compiling from source.

@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	alacritty
+	kitty
 
 # help
 super + F1
@@ -23,6 +23,14 @@ ctrl + alt + Delete
 super + r
 	rofi -show run
 
+# Brightness control
+XF86MonBrightness{Up,Down}
+	brightnessctl s 10{+,-}
+
+# Volume control
+XF86Audio{Raise,Lower}Volume
+	pulsemixer --change-volume {+,-}10
+
 # lockscreen
 super + l
 	~/.config/bspwm/lock.sh
@@ -33,10 +41,10 @@ super + Escape
 
 # flameshot 
 Print
-	maim -s | xclip -selection clipboard -t image/png
+	flameshot gui
 # file manager
 super + e
-	nautilus
+	pcmanfm
 #
 # bspwm hotkeys
 #

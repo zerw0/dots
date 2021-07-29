@@ -57,6 +57,7 @@ let g:goyo_width = "80%"
 let g:goyo_height = "80%"
 set background=dark
 colorscheme dracula
+:call coc#util#install()
 let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-eslint', 'coc-tsserver', 'coc-python', 'coc-tabnine', 'coc-html', 'coc-snippets', 'coc-rls', 'coc-discord-neovim']
 
 set nu
