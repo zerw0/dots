@@ -18,7 +18,7 @@ Plug 'python-mode/python-mode'
 Plug 'mattn/emmet-vim'
 Plug 'justinmk/vim-sneak'
 Plug 'HerringtonDarkholme/yats.vim'
-Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 Plug 'dracula/vim'
 Plug 'vim-airline/vim-airline'
@@ -57,7 +57,6 @@ let g:goyo_width = "80%"
 let g:goyo_height = "80%"
 set background=dark
 colorscheme dracula
-:call coc#util#install()
 let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-eslint', 'coc-tsserver', 'coc-python', 'coc-tabnine', 'coc-html', 'coc-snippets', 'coc-rls', 'coc-discord-neovim']
 
 set nu

@@ -82,46 +82,6 @@ modules-left = bspwm
 modules-center = title
 modules-right =  volume battery network date powermenu
  
-
-;== External Bar ===========================================================
-[bar/top_external]
-width = 100%
-height = 30
-offset-x = 0%
-offset-y = 0%
-bottom = false
-fixed-center = false
-line-size = 2
-wm-restack = bspwm
-monitor = VGA-1
-
-background = 
-foreground = ${color.fg}
-
-;==========================================================
-
-font-0 = "UbuntuMono Nerd Font:size=10;2"
-font-1 = "UbuntuMono Nerd Font:size=16;3"
-font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=8;1"
-font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
-font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
-
-;==========================================================
-
-enable-ipc = true
-cursor-click = pointer
-
-scroll-up = bspwm-wsnext
-scroll-down = bspwm-wsprev
-
-;== Module Location ========================================================
-
-modules-left = bspwm
-modules-center = title
-modules-right =  volume date 
- 
-
-
 ;== Modules ========================================================
 
 

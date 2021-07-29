@@ -30,11 +30,11 @@ bspc config urgent_border_color 	      "#dd2727"
 xsetroot -cursor_name left_ptr
 pgrep -x sxhkd > /dev/null || sxhkd &
 pgrep -x picom > /dev/null || picom --config $HOME/.config/picom/picom.conf -b
-pgrep -x polkit-mate-authentication-agent-1 > /dev/null || /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 nitrogen --restore
 pgrep -x dunst > /dev/null || dunst &
 xrdb -merge $HOME/.Xresources
 pgrep -x flameshot > /dev/null || flameshot &
+pgrep -x xautolock > /dev/null || xautolock -time 10 -locker 'betterlockscreen -l' &
 
 # NOTE the path to the polybar executable.  This is the default location
 # when compiling from source.
