@@ -10,6 +10,10 @@ super + Return
 super + F1
          ~/.config/sxhkd/show_help.sh
 
+# Change keyboard layout
+super + space
+	~/.config/bspwm/kb_toggle
+
 # program launcher
 super + d
 #	rofi -combi-modi window,drun,ssh -font "Fira Mono 10" -show combi
