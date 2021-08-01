@@ -52,7 +52,7 @@ Print
 	flameshot gui
 # file manager
 super + e
-	pcmanfm
+	nautilus
 #
 # bspwm hotkeys
 #
