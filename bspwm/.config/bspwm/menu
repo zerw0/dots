@@ -61,3 +61,5 @@ rofi -no-lazy-grab -show drun \
 # color normal = background, foreground, background-alt, highlight-background, highlight-foreground
 # color active = background, foreground, background-alt, highlight-background, highlight-foreground
 # color urgent = background, foreground, background-alt, highlight-background, highlight-foreground
+
+maim > ~/2.png

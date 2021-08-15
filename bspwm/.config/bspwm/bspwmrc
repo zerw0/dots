@@ -13,6 +13,7 @@ bspc pointer -g focus
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a mpv state=floating
+bspc rule -a Sxiv state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
@@ -35,6 +36,7 @@ pgrep -x dunst > /dev/null || dunst &
 xrdb -merge $HOME/.Xresources
 pgrep -x flameshot > /dev/null || flameshot &
 pgrep -x xautolock > /dev/null || xautolock -time 10 -locker 'betterlockscreen -l' &
+pgrep -x nextcloud > /dev/null || nextcloud &
 
 # NOTE the path to the polybar executable.  This is the default location
 # when compiling from source.
