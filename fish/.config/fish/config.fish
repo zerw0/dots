@@ -3,7 +3,6 @@ export EDITOR="nvim" || export EDITOR="vim"
 export LANG=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL="en_US.UTF-8"
-export BW_SESSION="qT95YM3aZ5qI4x9CuZ9BWaWy3KNl19x1WhWrusvj7sPMEBwzt1u7WLLMc2Dd+XJh8jbI1AVjBkgsaK6YY+HqOw=="
 source $HOME/.config/fish/shortcuts.fish
 source $HOME/.config/fish/colors.fish
 set -gx PATH $HOME/.local/bin /usr/local/bin /opt/dirble /opt/exploitdb /opt/nikto/program $HOME/.cargo/bin $HOME/.rvm/bin $PATH
@@ -142,8 +141,8 @@ alias gg="googler"
 alias fm="xplr"
 
 # Start X at login
-if status is-login
-    if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
-        exec startx -- -keeptty
-    end
-end
+#if status is-login
+#    if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
+#        exec startx -- -keeptty
+#    end
+#end
