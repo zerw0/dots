@@ -146,3 +146,7 @@ alias fm="xplr"
 #        exec startx -- -keeptty
 #    end
 #end
+
+# Starship prompt
+starship init fish | source
+
