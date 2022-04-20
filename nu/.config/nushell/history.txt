@@ -1,0 +1,481 @@
+ls
+sys
+ls -la
+clear
+ls
+la
+ll
+chsh
+whereis nu
+chsh
+chsh -s /usr/bin/nu
+ls | lenght
+length
+clear
+ls | length
+save
+ls
+cd
+ls *.png
+exa
+cd
+cd ./.config/nushell/
+ls
+nvim ./config.nu
+cd
+mkdir ~/.cache/starship
+starship init nu | save ~/.cache/starship/init.nu
+$nu.config-path
+nvim $nu.config-path
+ls
+clear
+ls
+la
+clear
+ls
+starship explain
+cd
+nvim $nu.config-path
+cd
+cd ./.config/nushell/
+ls
+fishconf
+cd
+nvim ./.config/fish/config.fish
+nvim ./env.nu
+echo $pATH
+echo $PATH
+let-env
+clear
+cd
+cd ./.config/nushell/
+ls
+nvim ./env.nu
+In
+In config.nu
+cd
+cd ./.config/nushell/
+In config.nu
+nvim ./.config/fish/config.fish
+cd
+cd ./.config/nushell/
+ls
+nvim ./env.nu
+ls
+nvim ./config.nu
+ls
+cd ./.config/nushell/
+ls
+sys
+ls
+la
+nvim ./env.nu
+ls
+cd
+cd ./git/
+ls
+cd ./nerd-fonts-complete/
+cd
+ls
+nvim ./.config/nushell/env.nu
+alias
+cd
+cd ./.config/nushell/
+ls
+nvim ./config.nu
+ls
+la
+.5
+pwd
+cd
+...
+cd
+.3
+cd
+ls
+cd ./dots/ls
+cd ./dots/s
+ls
+cd ./dots/
+ls
+cat ./README.md
+fd
+find
+cd
+ls
+find
+find .
+find ./git/
+ls
+grep
+ls 
+ls | grep asd
+ls | grep 2
+nvim $nu.config-path
+ls
+la
+exa
+exa -la
+sys | get
+get license
+fetch
+fetch https://api.github.com/repos/nushell/nushell
+fetch https://api.github.com/repos/nushell/nushell | get 
+fetch https://api.github.com/repos/nushell/nushell | get license
+ps
+psmem
+pscpu
+sys | get host
+help
+help sys
+sys | get name
+sys | get mem
+htop
+paru htim
+htim
+htop
+cat /etc/fstabtab
+cat /etc/fstab
+cd /swapspace/
+l;s
+ls
+cd /swapspace/
+ls
+la
+cd ./@swap/
+ls
+cd
+ls
+cd /
+ls
+cd ./swapspace/
+ls
+cd ./@swap/
+ls
+cd
+paru zswap
+paru cabin
+paru dosis
+paru ttf-impallari-dosis
+paru mplus
+paru sf-pro
+ls
+la
+clear
+ls
+sys | get hos
+sys | get host
+neofetch
+clear
+ls
+la
+ls
+paru san-fran
+paru sfpro
+paru sf
+paru sf-pro
+cd /usr/share/fonts/ls
+cd /usr/share/fonts
+ls
+sudo git clone gh repo clone sahibjotsaggu/San-Francisco-Pro-Fonts
+git
+sudo git clone https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts.git
+sudo git g
+sudo git c
+sudo git 
+git
+git clone https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts.git
+ls
+sudo git
+sudo ls
+sudo
+fishconf
+nvim $nu.config-path
+doas
+ls
+clear
+doas
+sudo git
+cd /usr/share/fonts/
+ls
+sudo git clone alias doas = 'doas '
+sudo git clone https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts.git
+sudo fc-cache -fv
+cd
+cd ./.config/
+ls
+cd ./kitty/ls
+cd kitty
+ls
+nvim ./kitty.conf
+cd
+cd ./.config/kitty/ls
+cd ./.config/kitty/kitty.conf
+ls
+amas\
+ls
+la
+cd
+nvim ./.config/kitty/kitty.conf
+ls
+cd
+ls
+nvim ./.config/kitty/kitty.conf
+ls
+la
+ls
+la
+clear
+ls
+la
+clear
+ls
+la
+clear
+cd /var/nfs/media/
+ls
+cd
+sudo mount -t nfs 10.0.1.10:/mnt/storage/samba/media /var/nfs/media/
+cmus
+ncmpcpp
+cd /var/nfs/media/
+la
+ls
+la
+ls -la
+ls
+cd ./Music/
+ls
+exa -la
+cmus
+sudo pacman -Rscn ncmpcpp mpc mpd
+ranger
+cd
+cd ./dots/ls
+ls
+cd dots
+ls
+stow ranger
+ranger
+ncspot
+cd
+cd ./Documents/
+ls
+ranger
+cd
+cd './Documents/eBooks & Manga/'
+ls
+zathura ./Charles-Bukowski_-_Na_jug_ot_nikyde_-_Sluchki_ot_pogrebanija_zhivot_-_10095-b.epub
+sudo pacman -S zathura-pdf-poppler
+ls
+sudo pacman -S zathura-pdf-mupdf
+paru btop
+ls
+zathura ./anton.sent.ekzuperi-makiat.princ.pdf
+qcdcd
+cd
+cd ./dots/ls
+cd
+cd dots
+ls
+stow sxiv
+stow zathura
+cd
+cd './Documents/eBooks & Manga/'
+ls
+zathura ./Charles-Bukowski_-_Na_jug_ot_nikyde_-_Sluchki_ot_pogrebanija_zhivot_-_10095-b.epub
+chmod 700 ./.ssh/
+chmod 600 ./.ssh/config
+chmod 600 ./.ssh/personal
+chmod 600 ./.ssh/pubnix
+chmod 644 ./.ssh/personal.pub
+chmod 644 ./.ssh/pubnix.pub
+cd
+ssh homeserver
+cd
+clear
+paru vvave
+paru cava
+cava
+sys | get host
+clear
+sys | get host
+paru hello
+paru hello-kde-git
+parue lisa
+sudo pacman -S elisda
+sudo pacman -S elisa
+ls
+paru musikcube
+paru moc
+moc
+paru moc-pulse
+mocp
+paru -Rscn moc
+mpd
+sudo ss -tulnp | grep 6600
+sudo pacman -S mpd --noconfirm
+sudo ss -tulnp | grep 6600
+cd
+cd .mpls
+cd 
+la
+ls -la
+exa -la
+rm -rf .moc
+ls
+rm -rf .moc
+ls
+cd
+rm .moc
+nvim $nu.config-path
+ls
+rm .moc
+ls
+la
+rm .moc
+ls
+rm -rf .moc
+cd
+mkdir .mpd
+mkdir .mpd/playlists
+nvim ./.mpd/mpd.conf
+cd
+cd ./.config/mpd/
+ls
+nvim ./mpd.conf
+ls
+pwd
+nvim ./mpd.conf
+sudo usermod -aG mpd hdjenkov
+sudo usermod -aG mpd audio
+sudo ss -tulnp | grep 6600
+mpd
+sudo ss -tulnp | grep 6600
+paru wildmidi
+cd
+ls
+cd .mpd
+ls
+cd
+cd ./.config/mpd/
+ls
+cd ..
+rm -rf mpd
+ls
+cd
+cd ./.mpd/
+ls
+nvim mpd.conf
+ls
+mpd
+cd
+sudo pacman -S ncmpcpp --noconfirm
+cd
+ncmpcpp
+cd ./.config/ls
+cd ./.config/
+ls
+cd ./ncmpcpp/
+ls
+nvim config
+cd
+ls
+cd ./.config/ncmpcpp/
+ls
+cd
+ls
+mkdir .ncmpcpp
+nvim ./.ncmpcpp/config
+cp -r /usr/share/doc/ncmpcpp/config ./.ncmpcpp/
+cd ./.ncmpcpp/
+ls
+la
+ls- la
+exa -la
+nvim ./config
+ncmpcpp
+cd
+nvim ./.ncmpcpp/config
+ncmpcpp
+sudo pacman -S mpc
+cd
+cd ./.ncmpcpp/
+ls
+nvim ./config
+cd /tmp/
+ls
+cd
+cd ./.mpd/
+ls
+nvim ./mpd.conf
+ls
+cd /
+cd
+ls
+nvim ./.ncmpcpp/config
+ls
+cd
+cd ./.ncmpcpp/
+ls
+rm -rf ./config
+nvim config
+ncmpcpp
+ls
+nvim ./config
+ncmpcpp
+nvim ./config
+curl cheat.sh
+curl cheat.sh/ncmpcpp
+ncmpcpp
+cd
+nvim ./.ncmpcpp/config
+sys | get host
+ranger
+ls
+cd ./Documents/
+ls
+cd
+ls
+cd ./git/
+ls
+cd
+cd ./dots/ls
+cd
+cd dots
+ls
+htim
+cava
+nvim ./README.md
+clear
+sys | get host
+cd ./dots/ls
+cd dots
+ls
+mkdir ncmpcpp
+cd
+ls
+cd ./dots/sl
+cd dots
+ls
+cd ./ncmpcpp/
+ls
+cp -r ~/.ncmpcpp/ .
+ls
+la
+ls -la
+cd ./.ncmpcpp/
+ls
+cd ..
+ls
+git add ./ncmpcpp/
+ls
+cd
+ls
+cd
+cd dots
+ls
+mkdir nu
+cd ./nu/
+mkdir .config
+cd ./.config/
