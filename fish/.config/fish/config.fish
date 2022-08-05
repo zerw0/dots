@@ -102,10 +102,8 @@ alias tb="nc termbin.com 9999"
 # ip address
 alias ipp='curl ipinfo.io/ip'
 
-# doas
-alias sudo='doas'
-alias doas="doas --"
-alias doas='doas '
+# sudo
+alias sudo='sudo '
 
 # youtube-dl
 alias yt="youtube-dl --add-metadata -i"
