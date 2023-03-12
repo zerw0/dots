@@ -20,7 +20,7 @@ Plug 'justinmk/vim-sneak'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
-Plug 'dracula/vim'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'vim-airline/vim-airline'
 Plug 'mcchrish/nnn.vim'
 Plug 'vim-airline/vim-airline-themes'
@@ -56,7 +56,7 @@ let g:pymode_rope_complete_on_dot = 1
 let g:goyo_width = "80%"
 let g:goyo_height = "80%"
 set background=dark
-colorscheme dracula
+colorscheme catppuccin-macchiato
 let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-eslint', 'coc-tsserver', 'coc-python', 'coc-tabnine', 'coc-html', 'coc-snippets', 'coc-rls', 'coc-discord-neovim']
 
 set nu
