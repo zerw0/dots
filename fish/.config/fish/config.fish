@@ -106,13 +106,13 @@ alias ipp='curl ipinfo.io/ip'
 alias sudo='sudo '
 
 # youtube-dl
-alias yt="youtube-dl --add-metadata -i"
-alias playlist='youtube-dl -o '\''%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'\'' '
-alias playlist3='youtube-dl -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --add-metadata -o '\''%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'\'' '
+alias yt="yt-dlp --add-metadata -i"
+alias playlist='yt-dlp -o '\''%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'\'' '
+alias playlist3='yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --add-metadata -o '\''%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'\'' '
 alias ytv='yt -f bestvideo'
 alias yta='yt -x -f bestaudio/best'
 alias tiktok-dl='yt --cookies "cookies_files" --referer "https://www.tiktok.com/" -o "output.mp4" '
-alias ytmp3='youtube-dl -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --add-metadata '
+alias ytmp3='yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --add-metadata '
 
 # git
 alias addup='git add -u'
