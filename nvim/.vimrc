@@ -14,21 +14,17 @@ set termguicolors
 call plug#begin()
 Plug 'vim-scripts/indentpython.vim'
 Plug 'junegunn/goyo.vim'
-Plug 'python-mode/python-mode'
 Plug 'mattn/emmet-vim'
 Plug 'justinmk/vim-sneak'
-Plug 'HerringtonDarkholme/yats.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-Plug 'vim-airline/vim-airline'
 Plug 'mcchrish/nnn.vim'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'mhinz/vim-startify'
+Plug 'ellisonleao/gruvbox.nvim'
 call plug#end()
 filetype plugin indent on
 let python_highlight_all=1
@@ -42,22 +38,13 @@ map Q <Nop>
 map ,c :lcl<CR> :pc<CR> :cclose<CR>
 map np :Np<CR>
 
-" Python
-let g:pymode_python = 'python3'
-:let mapleader = ","
-let g:pymode_rope = 1
-let g:pymode_rope_completion = 1
-let g:pymode_rope_lookup_project = 0
-let g:pymode_rope_completion_bind = '<C-Space>'
-let g:pymode_rope_complete_on_dot = 1
-
-
 " Misc settings
 let g:goyo_width = "80%"
 let g:goyo_height = "80%"
 set background=dark
-colorscheme catppuccin-macchiato
 let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-eslint', 'coc-tsserver', 'coc-python', 'coc-tabnine', 'coc-html', 'coc-snippets', 'coc-rls', 'coc-discord-neovim']
+colorscheme gruvbox
+
 
 set nu
 set relativenumber
@@ -83,9 +70,6 @@ au BufNewFile,BufRead *.js,*.html,*.css
 set encoding=utf-8
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 hi StatusLine ctermbg=none cterm=bold
-
-" Custom commands
-command! Compile !pdflatex %:p|!biber file|!pdflatex %:p
 
 " NerdTree
 map ,N :NERDTreeToggle<CR>
@@ -120,9 +104,6 @@ let g:gitgutter_sign_modified = '✹'
 let g:gitgutter_sign_removed = '-'
 let g:gitgutter_sign_removed_first_line = '-'
 let g:gitgutter_sign_modified_removed = '-'
-
-" airline
-let g:airline_powerline_fonts = 1
 
 " startify
 " 'Most Recent Files' number
