@@ -9,7 +9,7 @@ SETUVAR __done_notification_urgency_level:critical
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
-SETUVAR __fish_initialized:3400
+SETUVAR __fish_initialized:3800
 SETUVAR _fish_abbr_60rec:scr\x20\x2dm\x20s\x20\x2df\x2060\x20\x2dc\x20recording\x2emp4
 SETUVAR _fish_abbr_bashrc:v\x20\x7e/\x2ebashrc
 SETUVAR _fish_abbr_bspconf:nvim\x20\x7e/\x2econfig/bspwm/bspwmrc
@@ -51,7 +51,7 @@ SETUVAR fish_color_operator:\x2do\x1ebrgreen
 SETUVAR fish_color_param:normal
 SETUVAR fish_color_quote:green
 SETUVAR fish_color_redirection:green
-SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dblack
+SETUVAR fish_color_search_match:white\x1e\x2d\x2dbackground\x3dblack
 SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
